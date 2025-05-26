@@ -4,3 +4,4 @@ tensorflow
 scipy
 implicit
 scikit-learn
+tqdm
