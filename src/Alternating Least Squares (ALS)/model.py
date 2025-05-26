@@ -39,4 +39,9 @@ def train_model():
     for key, value in item_to_idx.items():
         idx_to_item[value] = key
 
+    print('Training Complete')
     return model, user_to_idx, idx_to_item, test_events, train_csr
+
+
+if __name__ == '__main__':
+    train_model()
