@@ -5,7 +5,7 @@ import implicit
 
 def train_model():
 
-    agg_events, user_to_idx, item_to_idx, test_events = preprocess()
+    agg_events, user_to_idx, item_to_idx, test_events, _ = preprocess()
 
     # ALS needs a compact range of integers, that is why we map each id to a new continous index 
 

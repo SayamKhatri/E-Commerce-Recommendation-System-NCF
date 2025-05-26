@@ -1,1 +1,2 @@
 DATA_PATH = '/Users/samkhatri/Desktop/Data Science Projects/E-Commerce-Recommendation-System-NCF/data/df_ncf_events.parquet'
+ITEM_PATH = '/Users/samkhatri/Desktop/Data Science Projects/E-Commerce-Recommendation-System-NCF/data/baseline_item_feats.parquet'

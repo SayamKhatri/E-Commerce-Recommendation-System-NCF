@@ -55,4 +55,4 @@ def preprocess():
     agg_events['user_idx'] = agg_events['visitorid'].apply(lambda x : user_to_idx[x])
     agg_events['item_idx'] = agg_events['itemid'].apply(lambda x : item_to_idx[x])
 
-    return agg_events, user_to_idx, item_to_idx, test_events
+    return agg_events, user_to_idx, item_to_idx, test_events, train_events
